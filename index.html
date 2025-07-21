@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accesos Musicala Manager</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #F4F4F4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .header {
+      background: #3949AB;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .subtitulo {
+      text-align: center;
+      font-size: 18px;
+      margin: 20px;
+      color: #555;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px 40px;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 18px;
+      text-align: center;
+      color: #3949AB;
+    }
+
+    .boton-acceso {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #3949AB;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .boton-acceso:hover {
+      background-color: #1E88E5;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>🎯 Accesos Musicala Manager</h1>
+  </div>
+
+  <div class="subtitulo">Explora los accesos disponibles según tu rol</div>
+
+  <div class="galeria">
+    <div class="card">
+      <img src="1.png" alt="Musicala Manager 2025">
+      <h3>Musicala Manager 2025</h3>
+      <a class="boton-acceso" href="https://script.google.com/macros/s/AKfycbxtxTfD787QrRXsT1i2fXqmQ2_cih7XBisS-vz6z9U/dev" target="_blank">Entrar</a>
+    </div>
+
+    <div class="card">
+      <img src="2.png" alt="Kiwa 2025 - Manager FSA">
+      <h3>Kiwa 2025 - Manager FSA</h3>
+      <a class="boton-acceso" href="https://script.google.com/macros/s/AKfycbxk6ANJHjeUnI4ITNJD6U8M2Ru6U1G-dVsdO2iPI485/dev" target="_blank">Entrar</a>
+    </div>
+
+    <div class="card">
+      <img src="3.png" alt="Líderes Kiwa 2025 - Manager FSA">
+      <h3>Líderes Kiwa 2025 - Manager FSA</h3>
+      <a class="boton-acceso" href="https://script.google.com/macros/s/AKfycbx7eookGndh90iXfS0w2DieoaqWkR9HWKGBrkZM9gM/dev" target="_blank">Entrar</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © Musicala 2025. Todos los derechos reservados.
+  </div>
+
+</body>
+</html>
